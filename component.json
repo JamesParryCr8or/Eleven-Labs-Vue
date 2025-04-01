@@ -1,0 +1,23 @@
+{
+  "name": "eleven-labs-voice",
+  "label": "Eleven Labs Voice",
+  "icon": "volume-up",
+  "category": "AI",
+  "properties": {
+    "textToSpeak": {
+      "type": "binding",
+      "label": "Text to Speak"
+    },
+    "voiceId": {
+      "type": "text",
+      "label": "Voice ID",
+      "defaultValue": "EXAVITQu4vr4xnSDxMaL"
+    },
+    "apiKey": {
+      "type": "text",
+      "label": "Eleven Labs API Key",
+      "defaultValue": "",
+      "bindable": false
+    }
+  }
+}
